@@ -25,3 +25,8 @@ Development has been performed on Debian Linux and using the `mosquitto` MQTT br
 
 1. Build and download the sketch using Arduino. Use the serial monitor for progress messages. On my host the ESP8266 (NodeMCU) comes up as `/dev/ttyUSB0`.
 1. Interact with MQTT messages using `mosquitto_sub -v  -t outTopic` to receive messages and `mosquitto_pub -t inTopic -m "hello back"` to publish.
+1. Monitor activity from the viewpoint of the MQTT broker using `sudo tail -f /var/log/mosquitto/mosquitto.log`.
+
+## Status
+
+Working as desired.
