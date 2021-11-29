@@ -15,7 +15,7 @@ Build something that does a bit more than blink an LED and builds and works corr
 1. Create `secrets.h` and in it define the items described in `mqtt_esp8266.ino`. This file is listed in `.gitignore` and is probably something yuou do not want to commit/push.
 1. Run an MQTT server for testing. This is trivially easy on Debian Linux and is run on the same host used for development. (If you are using Mosquitto 2.0 or later you may need to configure it to accept anonymous connections.)
 1. Install the Arduino toolchain and add the pubsubclient as instructed in `mqtt_esp8266.ino`.
-1. Install Visual Studio Code and add the PlatformIO extension. This project was imported by PlatformIO and put in another location with a layout that will not work for Arduino. That project is at https://github.com/HankB/211123-120815-nodemcuv2.
+1. Install Visual Studio Code and add the PlatformIO extension. This project was imported by PlatformIO and put in another location with a layout that will not work for Arduino. That project is at <https://github.com/HankB/mqtt_esp8266_PIO>.
 
 ## Usage
 
